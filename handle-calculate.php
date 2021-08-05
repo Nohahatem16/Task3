@@ -9,11 +9,11 @@ if (isset($_GET['calc'])) {
       echo add($firstNumber, $secondNumber);
 
     } 
-    elseif ($oppInput == 'sub') 
+    elseif ($operation == 'sub') 
     {
         echo sub($firstNumber, $secondNumber);
     } 
-    elseif ($oppInput == 'mul') 
+    elseif ($operation == 'mul') 
     {
         echo mul($firstNumber, $secondNumber);
     } 
